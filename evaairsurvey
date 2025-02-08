@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>長榮航空服務問卷邀請</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            background: #f0f2f5;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            width: 90%;
+            max-width: 600px;
+            margin: auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #005a2b;
+            margin: 15px 0 5px 0;
+            font-size: 24px;
+        }
+        .subtitle {
+            color: #005a2b;
+            font-size: 18px;
+            margin: 0 0 20px 0;
+            font-weight: normal;
+        }
+        .message-block {
+            text-align: left;
+            margin: 20px 0;
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        .message-block:last-child {
+            border-bottom: none;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.8;
+            margin: 15px 0;
+            color: #333;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 30px;
+            background: #005a2b;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background: #00451f;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .name {
+            color: #0078C1;
+            font-weight: bold;
+        }
+        .lang-label {
+            font-weight: bold;
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+            display: block;
+        }
+        @media (max-width: 480px) {
+            .container {
+                padding: 20px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+            .subtitle {
+                font-size: 16px;
+            }
+            p {
+                font-size: 14px;
+            }
+            .btn {
+                padding: 10px 20px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>**長榮航空服務問卷邀請**</h2>
+            <h3 class="subtitle">EVA Air Service Survey Invitation</h3>
+        </div>
+        <div class="message-block">
+            <span class="lang-label">中文</span>
+            <p>感謝您選擇長榮航空，<span class="name">敝姓翁</span>，非常榮幸能協助您。<br>
+            希望有時間可以幫我填寫以下的服務意見回饋問卷，祝您旅途愉快！</p>
+        </div>
+        <div class="message-block">
+            <span class="lang-label">English</span>
+            <p>Thank you for choosing EVA Air. <span class="name">I am Mr. WENG</span>, and it is my pleasure to assist you.<br>
+            I would appreciate it if you could take some time to fill out the following service feedback survey. Wishing you a pleasant journey!</p>
+        </div>
+        <div class="message-block">
+            <span class="lang-label">Tiếng Việt</span>
+            <p>Cảm ơn bạn đã chọn EVA Air. <span class="name">Tôi là ông WENG</span>, rất hân hạnh được hỗ trợ bạn.<br>
+            Mong rằng bạn có thời gian để giúp tôi điền vào bảng khảo sát phản hồi dịch vụ sau đây. Chúc bạn có một chuyến đi vui vẻ!</p>
+        </div>
+        <a href="https://booking.evaair.com/flyeva/EVA/B2C/feedback.aspx" target="_blank" class="btn">
+            填寫問卷 | Fill out the survey | Điền vào khảo sát
+        </a>
+    </div>
+</body>
+</html>
